@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Http</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <template id="single-post">
+      <li class="post-item">
+        <h2></h2>
+        <p></p>
+        <button>DELETE</button>
+      </li>
+    </template>
+    <section id="new-post">
+        <p id=""></p>
+      <form>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="form-control">
+          <label for="job">Job</label>
+          <input type="text" id="job" />
+        </div>
+        <button type="submit" id="btn">SUBMIT</button>
+      </form>
+    </section>
+    <!-- <section id="available-posts">
+      <ul class="posts" id="m"></ul>
+    </section> -->
+  </body>
+</html>
